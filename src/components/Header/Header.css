@@ -1,0 +1,21 @@
+.nav-container{
+    height: 80px;
+    background-color: rgb(0, 29, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+}
+.nav-logo{
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.nav-items-container{
+    margin-right: 20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
