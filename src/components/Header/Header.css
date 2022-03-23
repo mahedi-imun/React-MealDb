@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     color: #ffff;
+    position: sticky;
+    top: 0;
 }
 .nav-logo{
     font-size: 2rem;
@@ -19,3 +21,11 @@
     padding: 0 20px;
     font-size: 1.2rem;
 }
+@media only screen and (max-width: 600px) {
+    .nav-logo{
+      font-size: 1rem;
+    }
+    .nav-items a{
+        font-size: 1rem;
+    }
+  }
